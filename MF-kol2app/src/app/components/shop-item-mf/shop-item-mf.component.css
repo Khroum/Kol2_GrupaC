@@ -1,0 +1,11 @@
+.item-border {
+  border: 1.5px solid gray;
+  background-color: aliceblue;
+  height: auto;
+  width: 300px;
+  margin: 20px;
+}
+
+.small-indent {
+  text-indent: 1cm;
+}

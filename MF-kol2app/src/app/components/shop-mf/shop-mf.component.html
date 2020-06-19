@@ -1,0 +1,11 @@
+<div class="item">
+  <app-shop-item-mf
+    class="item-margin"
+    *ngFor="let item of items$"
+    [id]="item.id"
+    [title]="item.title"
+    [text]="item.text"
+    [image]="item.image"
+    [price]="item.price"
+  ></app-shop-item-mf>
+</div>
